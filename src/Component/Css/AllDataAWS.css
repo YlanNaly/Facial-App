@@ -1,0 +1,42 @@
+.row{
+    width: 90%;
+    height: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    margin-top: 2%;
+}
+.card{
+    flex-basis: 45%;
+    overflow: hidden;
+}
+.mb-3{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0
+}
+.bouton{
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-right: 12%;
+}
+.card-body-2 {
+    margin-top: 0;
+    --width: 20%;
+    margin-left: 46%;
+    max-height: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    flex-basis: 50%;
+    overflow: auto;
+    position: fixed;
+    max-height: 700px;
+}
+.card-body > h1 {
+    margin-top: 1%; 
+    z-index: 120;
+    position: absolute;
+}
